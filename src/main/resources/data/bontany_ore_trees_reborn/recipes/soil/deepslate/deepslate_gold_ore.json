@@ -1,0 +1,14 @@
+
+{
+  "type": "botanypots:soil",
+  "input": {
+    "item": "minecraft:deepslate_gold_ore"
+  },
+  "display": {
+    "block": "minecraft:deepslate_gold_ore"
+  },
+  "categories": [
+    "gold"
+  ],
+  "growthModifier": 1
+}

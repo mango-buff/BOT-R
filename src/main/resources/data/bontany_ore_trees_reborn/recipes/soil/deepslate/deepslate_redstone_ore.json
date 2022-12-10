@@ -1,0 +1,14 @@
+
+{
+  "type": "botanypots:soil",
+  "input": {
+    "item": "minecraft:deepslate_redstone_ore"
+  },
+  "display": {
+    "block": "minecraft:deepslate_redstone_ore"
+  },
+  "categories": [
+    "redstone"
+  ],
+  "growthModifier": 1
+}

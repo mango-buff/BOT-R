@@ -1,0 +1,14 @@
+
+{
+  "type": "botanypots:soil",
+  "input": {
+    "item": "minecraft:deepslate_coal_ore"
+  },
+  "display": {
+    "block": "minecraft:deepslate_coal_ore"
+  },
+  "categories": [
+    "coal"
+  ],
+  "growthModifier": 1
+}

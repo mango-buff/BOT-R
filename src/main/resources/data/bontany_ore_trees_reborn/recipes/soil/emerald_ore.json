@@ -1,0 +1,14 @@
+
+{
+  "type": "botanypots:soil",
+  "input": {
+    "item": "minecraft:emerald_ore"
+  },
+  "display": {
+    "block": "minecraft:emerald_ore"
+  },
+  "categories": [
+    "emerald"
+  ],
+  "growthModifier": 1
+}
