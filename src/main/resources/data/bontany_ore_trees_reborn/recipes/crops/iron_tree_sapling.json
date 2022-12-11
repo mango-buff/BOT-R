@@ -34,6 +34,14 @@
       },
       "minRolls": 1,
       "maxRolls": 2
+    },
+    {
+      "chance": 0.95,
+      "output": {
+        "item": "minecraft:apple"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
     }
   ]
 }
