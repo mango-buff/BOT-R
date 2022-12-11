@@ -4,9 +4,10 @@ license="MIT License"
 
 [[mods]]
 modId="bontany_ore_trees_reborn"
-version="0.1.0"
+version="0.1.5"
 displayName="Botany Ore Trees:Reborn"
-displayURL=""
+logoFile = "logo.png"
+displayURL="https://github.com/mango-buff/BOT-R"
 authors="mango_buff"
 description='''
 Botany Ore Trees:Reborn.
