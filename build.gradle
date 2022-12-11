@@ -16,7 +16,7 @@ plugins {
 apply plugin: 'net.minecraftforge.gradle'
 
 
-version = 'Forge-v0.1.0+1.18.2'
+version = 'Forge-v0.1.5+1.18.2'
 group = 'com.mango_buff.bontany_ore_trees_reborn' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'BotanyOreTreesReborn'
 
