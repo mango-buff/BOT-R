@@ -1,16 +1,47 @@
 {
-  "group": "ore_tree",
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "ore_tree:redstone_tree_sapling"
+  },
+  "categories": [
+    "redstone"
+  ],
+  "growthTicks": 1200,
+  "display": {
+    "block": "ore_tree:redstone_tree_sapling"
+  },
+  "drops": [
     {
-      "tag": "minecraft:saplings"
+      "chance": 1.00,
+      "output": {
+        "item": "ore_tree:redstone_tree_log"
+      },
+      "minRolls": 5,
+      "maxRolls": 5
     },
     {
-      "item": "minecraft:redstone"
+      "chance": 0.95,
+      "output": {
+        "item": "minecraft:stick"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
+    },
+    {
+      "chance": 0.95,
+      "output": {
+        "item": "minecraft:oak_sapling"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
+    },
+    {
+      "chance": 0.95,
+      "output": {
+        "item": "minecraft:apple"
+      },
+      "minRolls": 1,
+      "maxRolls": 2
     }
-  ],
-  "result": {
-    "item": "ore_tree:redstone_tree_sapling",
-    "count": 1
-  }
+  ]
 }
