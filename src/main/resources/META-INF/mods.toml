@@ -1,0 +1,35 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="MIT License"
+
+[[mods]]
+modId="bontany_ore_trees_reborn"
+version="0.1.6"
+displayName="Botany Ore Trees:Reborn"
+logoFile = "logo.png"
+displayURL="https://github.com/mango-buff/BOT-R"
+authors="mango_buff"
+description='''
+Botany Ore Trees:Reborn.
+'''
+
+[[dependencies.bontany_ore_trees_reborn]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2]"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.bontany_ore_trees_reborn]]
+    modId="ore_tree"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.bontany_ore_trees_reborn]]
+    modId="botanypots"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
