@@ -16,7 +16,7 @@ plugins {
 apply plugin: 'net.minecraftforge.gradle'
 
 
-version = 'Forge-v0.1.5+1.18.2'
+version = 'Forge-v0.1.6+1.18.2'
 group = 'com.mango_buff.bontany_ore_trees_reborn' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'BotanyOreTreesReborn'
 
@@ -61,10 +61,10 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             // Comma-separated list of namespaces to load gametests from. Empty = all namespaces.
-            property 'forge.enabledGameTestNamespaces', 'examplemod'
+            property 'forge.enabledGameTestNamespaces', 'bontany_ore_trees_reborn'
 
             mods {
-                examplemod {
+                bontany_ore_trees_reborn {
                     source sourceSets.main
                 }
             }
@@ -78,10 +78,10 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             // Comma-separated list of namespaces to load gametests from. Empty = all namespaces.
-            property 'forge.enabledGameTestNamespaces', 'examplemod'
+            property 'forge.enabledGameTestNamespaces', 'bontany_ore_trees_reborn'
 
             mods {
-                examplemod {
+                bontany_ore_trees_reborn {
                     source sourceSets.main
                 }
             }
@@ -106,10 +106,10 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             // Comma-separated list of namespaces to load gametests from. Empty = all namespaces.
-            property 'forge.enabledGameTestNamespaces', 'examplemod'
+            property 'forge.enabledGameTestNamespaces', 'bontany_ore_trees_reborn'
 
             mods {
-                examplemod {
+                bontany_ore_trees_reborn {
                     source sourceSets.main
                 }
             }
@@ -123,10 +123,10 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             // Specify the modid for data generation, where to output the resulting resource, and where to look for existing resources.
-            args '--mod', 'examplemod', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
+            args '--mod', 'bontany_ore_trees_reborn', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
 
             mods {
-                examplemod {
+                bontany_ore_trees_reborn {
                     source sourceSets.main
                 }
             }
